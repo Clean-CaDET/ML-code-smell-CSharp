@@ -35,6 +35,8 @@ The embedding representation is available as Python pickle DataFrames:
 * [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/CodeT5_embeddings_LC.pkl)
 * [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/CodeT5_embeddings_LM.pkl).
 
-# Error analysis
+# Performance analysis
 
-In [https://github.com/Clean-CaDET/ML-code-smell-CSharp/tree/master/Dataset/Error%20analysis] we provide the details of analyzing the errors our best model (the ML classifier trained using source code metrics as features) makes on the test set.
+We provide the details of analyzing the errors our best model (the ML classifier trained using source code metrics as features) makes on the test set:
+* [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Error%20analysis/GC_Test_with_predictions.xlsx)
+* [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Error%20analysis/LM_Test_with_predictions.xlsx)
