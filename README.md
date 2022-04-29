@@ -15,12 +15,26 @@ https://www.techrxiv.org/articles/preprint/Towards_a_systematic_approach_to_manu
 
 # Heuristics
 
-Jupyter notebooks evaluating the performance of metric-based code smell detection heuristics on our dataset.
+Jupyter notebooks evaluating the performance of metric-based code smell detection heuristics on our dataset:
+* [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Heuristics/Large_Class_Heuristics.ipynb)
+* [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Heuristics/Long_Method_Heuristics.ipynb)
 
 # Metrics
 
-Jupyter notebooks evaluating the performance of the ML classifier trained using source code metrics as features.
+Jupyter notebooks evaluating the performance of the ML classifier trained using source code metrics as features:
+* [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Metrics/Large_Class.ipynb)
+* [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Metrics/Long_Method.ipynb)
 
 # CodeT5
 
-Jupyter notebooks evaluating the performance of the ML classifier trained using CodeT5 neural source code embeddings as features. The embedding representation is available as Python pickle DataFrames.
+Jupyter notebooks evaluating the performance of the ML classifier trained using CodeT5 neural source code embeddings as features:
+* [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/Large_Class.ipynb)
+* [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/Long_Method.ipynb).
+
+The embedding representation is available as Python pickle DataFrames:
+* [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/CodeT5_embeddings_LC.pkl)
+* [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/CodeT5/CodeT5_embeddings_LM.pkl).
+
+# Error analysis
+
+In [https://github.com/Clean-CaDET/ML-code-smell-CSharp/tree/master/Dataset/Error%20analysis] we provide the details of analyzing the errors our best model (the ML classifier trained using source code metrics as features) makes on the test set.
