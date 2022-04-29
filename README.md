@@ -7,7 +7,7 @@ A dataset containing code snippets from C# projects, annotated for the presence 
 * [Long Method](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/DataSet_Long%20Method%20-%20Round%203.xlsx)
 * [Large Class](https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/DataSet_Large%20Class%20-%20Round%203.xlsx).
 
-We prepare our experiment by dividing the dataset into the training (80%) and test (20%) datasets via a stratified random sampling strategy (Jupyter notebooks https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Large_Class_prepare_dataset.ipynb and https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Long_Method_prepare_dataset.ipynb) and save the train and test potrions to the picke files.
+We prepare our experiment by dividing the dataset into the training (80%) and test (20%) datasets via a stratified random sampling strategy (Jupyter notebooks https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Large_Class_prepare_dataset.ipynb and https://github.com/Clean-CaDET/ML-code-smell-CSharp/blob/master/Dataset/Long_Method_prepare_dataset.ipynb) and save the train and test portions to the pickle files.
 
 A detailed description of the dataset, its collection, and annotation procedure is presented in the paper 
 Luburić, N., Prokić, S., Grujić, K.G., Slivka, J., Kovačević, A., Sladić, G. and Vidaković, D., 2021. Towards a systematic approach to manual annotation of code smells.
@@ -19,8 +19,8 @@ Jupyter notebooks evaluating the performance of metric-based code smell detectio
 
 # Metrics
 
-Jupyter notebooks evaluating the performance of the ML classifier trained using code metrics as features.
+Jupyter notebooks evaluating the performance of the ML classifier trained using source code metrics as features.
 
 # CodeT5
 
-Jupyter notebooks evaluating the performance of the ML classifier trained using CodeT5 neural source code embeddings as features. The embedding representation is avalilable as Python pickle dataframes.
+Jupyter notebooks evaluating the performance of the ML classifier trained using CodeT5 neural source code embeddings as features. The embedding representation is available as Python pickle DataFrames.
