@@ -1,5 +1,5 @@
 # ML-code-smell-CSharp
-This repository contains the reproducibility package for the paper "Automatic detection of code smells using metrics and CodeT5 embeddings: a case study in C#".
+This repository contains the reproducibility package for the paper "Automatic detection of code smells using metrics and CodeT5 embeddings: a case study in C#". https://www.techrxiv.org/articles/preprint/Automatic_detection_of_code_smells_using_metrics_and_CodeT5_embeddings_a_case_study_in_C_/19682754
 
 # Dataset
 
